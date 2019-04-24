@@ -9,7 +9,7 @@ end
 =end
 
 def prime?(num)
-  if num < 0 
+  if num < 0
     false
   elsif num>0
     (2..(num - 1)).each { |n|
