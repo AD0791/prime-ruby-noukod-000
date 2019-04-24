@@ -13,7 +13,7 @@ def prime?(num)
     false
   elsif num>0
     (2..(num - 1)).each { |n|
-      return false if num % n == 0
+      false if num % n == 0
     }
   else
     true
