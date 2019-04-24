@@ -15,7 +15,6 @@ def prime?(num)
     (2..(num - 1)).each { |n|
       false if num % n == 0
     }
-  else
     true
   end
 end
